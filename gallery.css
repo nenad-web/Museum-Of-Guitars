@@ -1,0 +1,73 @@
+body{
+    background: url(guitars/bg2.jpg);
+    font-family:  'Sen', sans-serif;
+    color: whitesmoke;
+    margin: auto;
+    
+    
+    
+}
+/* .header{
+    background: url(guitars/bg2.jpg);
+} */
+.jumbotron {
+    background: none;
+    border-bottom: 3px solid black;
+    font-weight: 700;
+  
+}
+
+.top{
+    margin-top: 100px;
+    
+}
+
+.big{
+    font-weight: 700;
+
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #CAC3C7;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #CAC3C7;
+}
+img{
+    margin: auto;
+}
+/* @media (max-width: 100px) {
+    .heading {
+        
+        font-size: 1rem;
+        
+    }
+} */
+
+.read:hover{
+    background-color: #AD3333;
+    transition: 500ms;
+}
+.navbar-nav > li{
+    margin-left:10px;
+    margin-right:10px;
+  }
+@media screen and (max-width:768px){
+    .h{
+       font-size:3em;
+       margin-top: 50px;
+     }    
+}
+
+.img-thumbnail{
+    transition: transform .2s;
+    
+}
+.img-thumbnail:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

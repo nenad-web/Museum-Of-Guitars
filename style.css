@@ -1,0 +1,85 @@
+body{
+    /* background: #DBE5DA; */
+    background: url("guitars/bg2.jpg");
+    
+    font-family:  'Sen', sans-serif;
+    color: white;  
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #CAC3C7;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #CAC3C7;
+}
+.navbar-nav > li{
+    margin-left:10px;
+    margin-right:10px;
+  }
+.right{
+    margin-right: 700px;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.read:hover{
+    background-color: #AD3333;
+    transition: 500ms;
+}
+
+p{
+    margin-bottom: 100px;
+   
+}
+h1{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    /* text-shadow: 1px 1px #D0DBE5; */
+    text-decoration: underline;
+
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    
+}
+h2{
+    text-shadow: 1px 1px #818C96;
+    
+}
+.hov:hover{
+    color: #AD3333;
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+.dis:hover{
+    color: #AD3333;
+    text-shadow: brown;
+    transition: 500ms;
+    border: 5px outset #AD3333;
+    font-weight: bolder;
+    
+}
+.img{
+    margin-top:0;
+    width:100%;
+     min-height:100px;
+     object-fit: cover;
+     
+    
+}
+.content{
+    margin-top: 100px;
+}
+@media (max-width: 1200px) {
+    .heading {
+        
+        font-size: 4rem;
+    }
+}
+.img-fluid{
+    border: 5px outset #AD3333;
+}
